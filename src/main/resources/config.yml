@@ -1,0 +1,43 @@
+debug: false
+
+settings:
+  static-potions:
+    #Set to "none" to disable message.
+    equip-message: "&b&l[+] &b%enchant-display% %level%: &7Applying %potion-effect% %potion-effect-level%"
+    unequip-message: "&c&l[-] &c%enchant-display% %level%: &7Removing %potion-effect% %potion-effect-level%"
+
+groups:
+  SIMPLE:
+    color: GRAY
+    display: "&7Simple"
+    material: WHITE_STAINED_GLASS_PANE
+  UNIQUE:
+    color: GREEN
+    display: "&aUnique"
+    material: LIME_STAINED_GLASS_PANE
+  ELITE:
+    color: AQUA
+    display: "&bElite"
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+  ULTIMATE:
+    color: YELLOW
+    display: "&eUltimate"
+    material: YELLOW_STAINED_GLASS_PANE
+  LEGENDARY:
+    color: GOLD
+    display: "&6Legendary"
+    material: ORANGE_STAINED_GLASS_PANE
+  SOUL:
+    color: RED
+    display: "&cRed"
+    material: RED_STAINED_GLASS_PANE
+  HEROIC:
+    color: LIGHT_PURPLE
+    display: "&bHeroic"
+    material: MAGENTA_STAINED_GLASS_PANE
+  MASTERY:
+    color: DARK_RED
+    display: "&4Mastery"
+    material: RED_STAINED_GLASS_PANE
+
+messages:

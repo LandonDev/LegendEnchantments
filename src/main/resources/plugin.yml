@@ -1,0 +1,4 @@
+name: LegendEnchantments
+version: ${project.version}
+main: landon.legendenchantments.LegendEnchantments
+api-version: 1.18
